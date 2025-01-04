@@ -15,6 +15,7 @@ public class LoginSteps {
     @Given("I am on the login page")
     public void iAmOnTheLoginPage() {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        System.out.println("WebsiteOpened");
     }
 
     @When("I enter credentials from Excel sheet")
